@@ -1068,8 +1068,10 @@ blockquote {
 
 #footer .socials-media ul li {
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 #footer .socials-media ul li a {
@@ -1099,6 +1101,11 @@ blockquote {
   font-size: 13px;
 }
 
+@media (min-width: 1200px) {
+  #hero .hero-content{
+    padding-bottom: 30vh;
+  }
+}
 /** Width between 1200x to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
